@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #6D98BA;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0.1px;
+    color: black;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    max-width: 100%;
+}
+input{
+    font-size: 25px;
+    padding: 13 15px;
+    margin-bottom: 30px;
+    border: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#btn-add{
+    background-color: #323030;
+    color: white;
+    border: 0;
+    margin-left: 10;
+    font-size: 22;
+    padding: 15;
+    cursor: pointer;
+
+}
+button:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  li{
+    display: flex;
+    margin-right: 300px;
+    text-align: start;
+    margin-bottom: 15px;
+    padding: 10;
+    max-width: 100%;
+    cursor: pointer;
+    border-radius: 8px;
+    color: #024c85;
+    background-color: #ffffff;
+    font-weight: 700;
+    font-size: 25px;
+  width: 100%;
+  }
+  li:hover{
+    opacity: 0.8;
+    transition: 0.2s;
+    transform: translateY(-2px);
+  }
+  footer div{
+    display: flex;
+    max-width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  footer div p{
+    font-size: 20px;
+    margin-right: 10px;
+    
+  }
+  footer div button{
+    background-color: red;
+    border: 0;
+    color: white;
+    padding: 10px 15px;
+    font-size: 19px;
+  }
+@media(max-width: 600px){
+    header{
+    width: 100%;
+    background-color: #f2f2f2;
+    color: black;
+    padding-left: 60;
+    padding-right: 60;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+input{
+    font-size: 23px;
+    
+    border: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#btn-add{
+    background-color: black;
+    color: white;
+    margin-top: 20;
+    margin-bottom: 40;
+    padding: 10;
+    font-size: 23;
+}
+.div-ep{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-left: 60px;
+}
+button:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  li{
+    display: flex;
+    margin-right: 150;
+    text-align: start;
+    margin-bottom: 15px;
+    padding: 10;
+    
+    cursor: pointer;
+    border-radius: 8px;
+    color: #024c85;
+    background-color: #ffffff;
+    font-weight: 700;
+    font-size: 25px;
+  width: 100%;
+  }
+  footer div{
+    display: flex;
+    max-width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  footer div p{
+    font-size: 20px;
+    margin-right: 10px;
+    
+  }
+  footer div button{
+    background-color: red;
+    border: 0;
+    color: white;
+    padding: 10px 15px;
+    font-size: 19px;
+  }
+}
